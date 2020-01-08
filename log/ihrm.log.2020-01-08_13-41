@@ -1,0 +1,9 @@
+2020-01-08 13:41:14,543 INFO [root] [__init__.py(<module>:10)] - test日志器能不能正常工作
+2020-01-08 13:41:15,194 INFO [root] [login.py(test_login:31)] - 登陆成功时候输出的数据为：{'message': '操作成功！', 'success': True, 'data': '16ce89b6-7a22-4229-8f1f-4f29c2872068', 'code': 10000}
+2020-01-08 13:41:15,210 INFO [root] [login.py(test_login:40)] - 保存的令牌是:{'Authorization': 'Bearer 16ce89b6-7a22-4229-8f1f-4f29c2872068', 'Content-Type': 'application/json'}
+2020-01-08 13:41:15,284 INFO [root] [test_emp.py(test_01_add_emp:35)] - 添加员工返回的数据为：{'message': '操作成功！', 'success': True, 'data': {'id': '1214784105069498368'}, 'code': 10000}
+2020-01-08 13:41:15,285 INFO [root] [test_emp.py(test_01_add_emp:38)] - 员工ID：1214784105069498368
+2020-01-08 13:41:15,352 INFO [root] [test_emp.py(test_02_query_emp:49)] - 查询员工返回的数据为；{'message': '操作成功！', 'success': True, 'data': {'mobile': '13111112222', 'timeOfEntry': '2020-01-01T00:00:00.000+0000', 'inServiceStatus': None, 'companyId': '1', 'id': '1214784105069498368', 'workNumber': '1234', 'correctionTime': '2020-01-30T16:00:00.000+0000', 'formOfManagement': None, 'staffPhoto': None, 'companyName': '传智播客', 'password': '377c1d5470762406291e47234a93d565', 'roleIds': [], 'createTime': None, 'departmentId': '1210411411066695680', 'formOfEmployment': 1, 'enableState': 1, 'workingCity': None, 'username': '马男波杰克11季', 'departmentName': '测试'}, 'code': 10000}
+2020-01-08 13:41:15,430 INFO [root] [test_emp.py(test_03_modify_emp:60)] - 修改员工返回的数据为；{'message': '操作成功！', 'success': True, 'data': {'id': '1214784105069498368'}, 'code': 10000}
+2020-01-08 13:41:15,586 INFO [root] [test_emp.py(test_03_modify_emp:69)] - 在数据库中的username为：None
+2020-01-08 13:41:15,664 INFO [root] [test_emp.py(test_04_delete_emp:81)] - 删除员工返回的数据为；{'message': '操作成功！', 'success': True, 'data': None, 'code': 10000}
